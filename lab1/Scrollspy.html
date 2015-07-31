@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Scrollspy</title>
+    <link href="Styles/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+
+    <h2>Scrollspy</h2>
+    <div style="position:relative;">
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static" role="navigation" id="navbar-spy">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#scroll-first">First</a></li>
+                <li><a href="#scroll-second">Second</a></li>
+            </ul>
+        </nav>
+
+        <!-- Content -->
+        <div data-target="#navbar-spy" data-spy="scroll" style="height:50px; overflow-y:scroll; position:relative;">
+            <div id="scroll-first">
+                <!-- first block of content -->
+                <h3>first block</h3>
+                bla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla bla <br>
+                bla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla bla<br>
+                bla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla bla<br>
+                bla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla bla           
+            </div>
+            <div id="scroll-second">
+                <!-- second block of content -->
+                <h3>second block</h3>
+                bla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla bla
+            </div>
+        </div>
+    </div>
+
+    <script src="Scripts/jquery-2.1.4.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+</body>
+</html>

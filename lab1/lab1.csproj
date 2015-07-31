@@ -71,8 +71,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Accordeon.html" />
     <Content Include="AlbumDetails.html" />
+    <Content Include="Carousel.html" />
+    <Content Include="hidden_option.html" />
     <Content Include="resources\Album.gif" />
+    <Content Include="Scrollspy.html" />
     <Content Include="Styles\bootstrap-theme.css" />
     <Content Include="Styles\bootstrap-theme.min.css" />
     <Content Include="Styles\bootstrap.css" />
@@ -90,6 +94,7 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-2.1.4.js" />
     <Content Include="Scripts\jquery-2.1.4.min.js" />
+    <Content Include="tabs.html" />
     <Content Include="Web.config" />
     <Content Include="Scripts\jquery-2.1.4.min.map" />
   </ItemGroup>

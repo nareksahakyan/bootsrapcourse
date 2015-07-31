@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Accordeon</title>
+    <link href="Styles/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="panel-group" id="accordion-sample">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion-sample" href="#accordion-sample-one">
+                                Heading One
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="accordion-sample-one" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            Sample content
+                            <div class="panel-group" id="nested_panel">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#nested_panel" href="#nested_accordeon">
+                                                Nested Title
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="nested_accordeon" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            Nested Content
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#nested_panel" href="#nested_accordeon2">
+                                                Nested Title2
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="nested_accordeon2" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            Nested Content2
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion-sample" href="#accordion-sample-two">
+                                Heading Two
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="accordion-sample-two" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            Sample content
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Scripts/jquery-2.1.4.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+
+</body>
+</html>
